@@ -1,0 +1,57 @@
+body {
+    background: url("../images/regal.png");
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+    color: #0404B4;
+}
+h1 {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 50px;
+    color: white;
+    background-color: #CED8F6;
+    width: 700px;
+    padding: 10px 30px 10px 30px;
+    margin: 10px
+}
+
+.main {
+    background-color: #CEECF5;
+    width: 700px;
+    padding: 10px 30px 10px 30px;
+    margin: 10px;
+}
+
+.numMatch {
+    width: 400px;
+    padding: 10px;
+    padding-bottom: 70px;
+    margin: 10px;
+    background-color:#FBEFF2;
+    float: left;
+}
+
+.scores {
+    width: 300px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #EFFBFB;
+    float: left;
+}
+
+header {
+    background-color: #FCF5FC;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.points{
+    background-color: #FCF5FC;
+    width: 400px;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+
