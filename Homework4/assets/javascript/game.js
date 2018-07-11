@@ -65,3 +65,5 @@ $(document).ready(function () {
         jew4Val = Math.floor(Math.random() * 10 + 1);
     }
 });
+
+

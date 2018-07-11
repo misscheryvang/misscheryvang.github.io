@@ -35,12 +35,8 @@ function displayFood() {
             foodDiv.append(p);
 
             $("#gifs").append(foodDiv);
-
         }
-
     });
-
-    
 }
 
 // Function for displaying food data

@@ -46,7 +46,7 @@ header {
     margin-bottom: 10px;
 }
 
-.points{
+.points {
     background-color: #FCF5FC;
     width: 400px;
     padding: 10px;
@@ -54,4 +54,8 @@ header {
     margin-bottom: 10px;
 }
 
+.crystalPosition {
+    padding-left: 10px;
+    padding-top: 130px;
+}
 
