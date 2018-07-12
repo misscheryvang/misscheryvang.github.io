@@ -1,0 +1,175 @@
+
+.button {
+  background-color:#00004d;
+  color: white;
+  height: 50px;
+  width: 200px;
+  margin: 20px;
+  font-family: 'Yeseva One', cursive;
+  font-size: 35px;
+
+  border-radius: 15px;
+  padding: 20px;  
+  
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.maintext {
+
+  margin: auto;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+.footer {
+  
+  position: relative;
+  bottom: 0;
+  width: 75%;
+  height: 100px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 0px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+  margin: 10px 0;
+}
+
+#clickBtn{
+  margin: 10px 0;
+}
+img{
+  margin: 10px 0 ;
+}
+/*
+
+body, .mainsection {
+  background-image: url(../images/usethis.jpg);
+}
+
+.section{
+  background-color: grey ;
+  background-image: url(../images/jpg);
+}
+
+
+.logo {
+  width: 25%;
+  height: 25%;
+  /*margin-left: 590px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+*/
+
+/* If not using bootstrap input*/
+  /*.textbox {
+  width: 500px;
+  height: 45px ;
+  position: relative;
+  left: 36%;
+  margin-top: 20px;
+} */
+
+
+
+
+/*
+
+.button:hover {
+  background-color: white;
+  color:#00004d;
+  border-color: #00004d;
+}
+
+.clickBtn {
+  width: 200px;
+}
+
+p {
+  color: red;
+  font-family: 'Trocchi', serif;
+  float: left;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*
+.subfooter {
+  margin-left:230px;
+  margin-top: 250px;
+}
+
+@keyframes rainbow {
+  0%   { color: #97E649; }
+  16%  { color: #35fec8; }
+  33%  { color: #35a9fe; }
+  49%  { color: #e135fe; }
+  66%  { color: #FE6C52; }
+  82%  { color: #F4EE44; }
+  100% { color: #97E649; }
+} 
+
+ 
+/*
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+
+
+
