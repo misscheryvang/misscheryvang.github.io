@@ -38,7 +38,6 @@ document.onkeyup = function (event) {
 
   //Creating a variable to hold our new HTML. Our HTML now keeps track of the user and computer guesses, and wins/losses/ties.
   var html =
-    "<h1>The Psychic Game</h1>" +
     "<p>Guess what letter I'm thinking of!</p>" +
     "<p>Wins: " + wins + "</p>" +
     "<p>Losses: " + losses + "</p>" +

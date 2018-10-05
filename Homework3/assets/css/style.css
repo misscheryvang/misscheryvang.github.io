@@ -1,0 +1,44 @@
+body {
+    background-color: #522A83;
+}
+
+.heading {
+    color: #BB6949;
+    font-family: 'Flavors', cursive;
+    font-size: 100px;
+    position: absolute;
+    left: 320px;
+    top: 100px;
+}
+
+p {
+    color: #E4BD5B;
+    font-size: 25px;
+    font-family: 'Gamja Flower', cursive;
+}
+
+#psychicGame {
+    position: absolute;
+    left: 450px;
+    top: 210px;
+}
+
+.genieImage {
+    position: absolute;
+    left: 900px;
+    top: 100px;
+}
+
+.border {
+    width: 690px;
+    height: 340px;
+    border-bottom: 10px solid #A2052C;
+    border-left: 10px solid #A2052C;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 20%;
+    position: absolute;
+    left:350px;
+    top: 210px;
+
+}
+
