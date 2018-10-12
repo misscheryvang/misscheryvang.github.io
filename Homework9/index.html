@@ -1,86 +1,91 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>About | Chery Vang</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>About me</title>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/uikit.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+  <!-- UIkit -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/css/components/accordion.almost-flat.css"
+    integrity="sha256-ZRu2uvT+IMWj7ooDbV50SFSrn3Zm3ewBc9s4mye4G58=" crossorigin="anonymous" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Caveat|Stoke|Lobster" rel="stylesheet">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
+  <div style="padding: 30px; font-family: 'Lobster', cursive; font-size: 50px;">
+    <a href="front.html">Chery Vang</a>
+  </div>
+  <!-- Navagation Bar -->
+  <nav class="uk-navbar uk-navbar-attached">
+    <ul class="uk-subnav uk-subnav-line">
+      <li>
+        <a href="index.html" class="uk-active navStyle">About</a>
+      </li>
+      <li>
+        <a href="portfolio.html" class="navStyle">Portfolio</a>
+      </li>
+      <li>
+        <a href="contact.html" class="navStyle">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Chery Vang</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <!-- Main section -->
+  <div class="topSpace"></div>
+
+  <div class="uk-grid uk-container-center">
+    
+    <div class="uk-width-large-3-4">
+
+      <p class="uk-clearfix ">
+        <img class="uk-align-medium-left" src="assets/images/me.jpg" alt="Chery Vang"> Welcome to my website. As I am transitioning into a new career, I am excited to begin my career in the programming
+        industry. This website contains the work and the progress I made during the UMN bootcamp.
+        <br>
+        <br> Please check out my portfolio to take a closer look at my professional work. The time and effort I spent on those
+        project reflects my skills and growth. I am proud to display those projects and eager to continue to develop my skills.
+        <br>
+        <br> Thank you for taking your time to visit my page.
+        <br>
+        <br>
+        <br>
+        <strong>
+          Email:</strong>
+        <a href="mailto:misscheryvang@yahoo.com">misscheryvang@yahoo.com</a>
+        <br>
+
+        <strong>Github:</strong>
+        <a href="https://github.com/misscheryvang">My Github</a>
+        <br>
+
+        <strong>Linkedin:</strong>
+        <a href="https://www.linkedin.com/in/chery-vang-08b135163">Chery Vang</a>
+
+      </p>
     </div>
-  </header>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-1">
-      </div>
-
-      <div class="col-md-10">
-        <div id="main-container" class="container">
-          <section class="main-section">
-            <h1>About Me</h1>
-
-            <img src="assets/images/me.jpg" class="auth-image" alt="Chery Vang">
-            <p>Welcome to my website. As I am transitioning into a new career, I am excited to begin my career in the programming
-              industry. This website contains the work and the progress I made during the UMN bootcamp.</p>
-
-            <p>Please check out my portfolio to take a closer look at my professional work. The time and effort I spent on these
-              project reflects skills and my growth. I am proud to display these projects and eager to continue to develop
-              my skills.</p>
-
-            <p>Thank you for taking your time to visit my page.</p>
-
-            <br><br><br>
-
-            <section id="contact-info">
-              <ul>
-                <li>
-                  <strong>Email:</strong>
-                  <a href="mailto:misscheryvang@yahoo.com">misscheryvang@yahoo.com</a>
-                </li>
-                <li>
-                  <strong>Github:</strong>
-                  <a href="https://github.com/misscheryvang">My Github</a>
-                </li>
-                <li>
-                  <strong>Linkedin:</strong>
-                  <a href="https://www.linkedin.com/in/chery-vang-08b135163">Chery Vang</a>
-                </li>
-              </ul>
-            </section>
-
-          </section>
-
-        </div>
-      </div>
-
-      <div class="col-md-1">
-      </div>
-    </div>
   </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
+  <div class="topSpace"></div>
+
+  <footer class="uk-text-center">
+    © 2018 Copyright Text
   </footer>
+
+  <script src="./js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/js/uikit.min.js"></script>
 </body>
 
 </html>

@@ -1,176 +1,192 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio | Chery Vang</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/uikit.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- UIkit -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/css/components/accordion.almost-flat.css"
+        integrity="sha256-ZRu2uvT+IMWj7ooDbV50SFSrn3Zm3ewBc9s4mye4G58=" crossorigin="anonymous" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Stoke|Galada" rel="stylesheet">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Chery Vang</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <div style="padding: 30px; font-family: 'Galada', cursive; font-size: 50px;">
+        <a href="front.html">Chery Vang</a>
     </div>
-  </header>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-1">
-      </div>
+    <!-- Navagation Bar -->
+    <nav class="uk-navbar uk-navbar-attached">
+        <ul class="uk-subnav uk-subnav-line">
+            <li>
+                <a href="index.html" class="navStyle">About</a>
+            </li>
+            <li>
+                <a href="portfolio.html" class="navStyle">Portfolio</a>
+            </li>
+            <li>
+                <a href="contact.html" class="navStyle">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
-      <div class="col-md-10">
-        <div id="main-container" class="container">
-          <section class="main-section">
-            <h1>Portfolio</h1>
-            
-            <div class="work">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/mobile.png" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Mobile App</h3>
-                  <p class="card-text">An app for people on the go with friendly user interface.</p>
-                  <a href="https://misscheryvang.github.io/Homework8/" class="btn btn-primary">Deployed Version</a>
-                  <a href="https://github.com/misscheryvang/onTheGoProject.git" class="btn btn-primary">Github</a>
-                </div>
-              </div>
-            </div>
-            <br>
+    <!-- Main section -->
+    <div class="topSpace"></div>
 
-            <div class="work">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/food.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Giftastic</h3>
-                  <p class="card-text">Displayed motion pictures with a click of a button.</p>
-                  <a href="https://misscheryvang.github.io/Homework6/" class="btn btn-primary">Deployed Version</a>
-                  <a href="https://github.com/misscheryvang/gifTastic" class="btn btn-primary">Github</a>
-                </div>
-              </div>
-            </div>
+    <div class="uk-grid uk-container-center" data-uk-grid-margin>
 
-            <div class="work">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/pyschic.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Pyschic Game</h3>
-                  <p class="card-text">Trying to guess what letter the computer is thinking of.</p>
-                  <a href="https://misscheryvang.github.io/Homework3/" class="btn btn-primary">Deployed Version</a>
-                  <a href="https://github.com/misscheryvang/Psychic-Game" class="btn btn-primary">Github</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="work">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/gems.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Collectors Game</h3>
-                  <p class="card-text">Match the target score by clicking on the gems to accumulate points.</p>
-                  <a href="https://misscheryvang.github.io/Homework4/" class="btn btn-primary">Deployed Version</a>
-                  <a href="https://github.com/misscheryvang/unit-4-game" class="btn btn-primary">Github</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="work">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/database.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">My Sql</h3>
-                  <p class="card-text">Updating databases in mysql.</p>
-                  <a href="https://github.com/misscheryvang/bamazon" class="btn btn-primary">Github</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="work">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/friend.png" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Friend Finder</h3>
-                  <p class="card-text">This app compares inputs to find the best match.</p>
-                  <a href="https://find-buddies.herokuapp.com/" class="btn btn-primary">Deployed Version</a>
-                  <a href="https://github.com/misscheryvang/FriendFinder.git" class="btn btn-primary">Github</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="work">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/burger.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Eat-da-burger</h3>
-                  <p class="card-text">This app allows the user to input a burger as well as devoured one.</p>
-                  <a href="#" class="btn btn-primary">Deployed Version</a>
-                  <a href="https://github.com/misscheryvang/burger.git" class="btn btn-primary">Github</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="work">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/artsy.png" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Artsy</h3>
-                  <p class="card-text">This online store allows artist and people with an interest in art to sell and purchase artwork.</p>
-                  <a href="https://guarded-savannah-41974.herokuapp.com/index.html" class="btn btn-primary">Deployed Version</a>
-                  <a href="https://github.com/misscheryvang/miraklProject" class="btn btn-primary">Github</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="work">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/joanna.jpg" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Scrape</h3>
-                  <p class="card-text">The website renders information scraped from another website and allows the users to add notes to it.</p>
-                  <a href="https://new-scrapie.herokuapp.com/" class="btn btn-primary">Deployed Version</a>
-                  <a href="https://github.com/misscheryvang/scrapeMongoose.git" class="btn btn-primary">Github</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="work">
-              <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="assets/images/pikachu.png" alt="Card image cap">
-                <div class="card-body">
-                  <h3 class="card-title">Clicky Game</h3>
-                  <p class="card-text">A memory game created with React.</p>
-                  <a href="https://misscheryvang.github.io/Homework19/" class="btn btn-primary">Deployed Version</a>
-                  <a href="https://github.com/misscheryvang/clicky-game.git" class="btn btn-primary">Github</a>
-                </div>
-              </div>
-            </div>
-
-          </section>
+        <div class="uk-width-small-1-2 uk-width-medium-1-3 uk-width-large-1-4">
+            <figure class="uk-overlay uk-overlay-hover">
+                <img class="uk-overlay-scale img" src="assets/images/mobile.png" width="300" height="300" alt="mobile App">
+                <figcaption class="uk-overlay-panel uk-overlay-background">
+                    <h3>Mobile App</h3>
+                    <p>An app for people on the go with friendly user interface.</p>
+                    <a href="https://misscheryvang.github.io/Homework8/">Deployed</a>
+                    <br>
+                    <a href="https://github.com/misscheryvang/onTheGoProject.git">Github</a>
+                </figcaption>
+            </figure>
         </div>
-      </div>
 
-      <div class="col-md-1">
-      </div>
+        <div class="uk-width-small-1-2 uk-width-medium-1-3 uk-width-large-1-4">
+            <figure class="uk-overlay uk-overlay-hover">
+                <img class="uk-overlay-scale img" src="assets/images/food.jpg" width="300" height="300" alt="Food displayed">
+                <figcaption class="uk-overlay-panel uk-overlay-background">
+                    <h3>Giftastic</h3>
+                    <p>Display motion pictures with a click of a button.</p>
+                    <a href="https://misscheryvang.github.io/Homework6/">Deployed</a>
+                    <br>
+                    <a href="https://github.com/misscheryvang/gifTastic">Github</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="uk-width-small-1-2 uk-width-medium-1-3 uk-width-large-1-4">
+            <figure class="uk-overlay uk-overlay-hover">
+                <img class="uk-overlay-scale img" src="assets/images/pyschic.jpg" width="300" height="300" alt="Guessing Letter Game">
+                <figcaption class="uk-overlay-panel uk-overlay-background">
+                    <h3>Pyschic Game</h3>
+                    <p>Trying to guess what letter the computer is thinking of.</p>
+                    <a href="https://misscheryvang.github.io/Homework3/">Deployed</a>
+                    <br>
+                    <a href="https://github.com/misscheryvang/Psychic-Game">Github</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="uk-width-small-1-2 uk-width-medium-1-3 uk-width-large-1-4">
+            <figure class="uk-overlay uk-overlay-hover">
+                <img class="uk-overlay-scale img" src="assets/images/gems.jpg" width="300" height="300" alt="Gems Game">
+                <figcaption class="uk-overlay-panel uk-overlay-background">
+                    <h3>Collectors Game</h3>
+                    <p>Match the target score by clicking on the gems to accumulate points.</p>
+                    <a href="https://misscheryvang.github.io/Homework4/">Deployed</a>
+                    <br>
+                    <a href="https://github.com/misscheryvang/unit-4-game">Github</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="uk-width-small-1-2 uk-width-medium-1-3 uk-width-large-1-4">
+            <figure class="uk-overlay uk-overlay-hover">
+                <img class="uk-overlay-scale img" src="assets/images/database.jpg" width="300" height="300" alt="Mysql">
+                <figcaption class="uk-overlay-panel uk-overlay-background">
+                    <h3>My Sql</h3>
+                    <p>Updating databases in mysql.</p>
+                    <a href="https://github.com/misscheryvang/bamazon">Github</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="uk-width-small-1-2 uk-width-medium-1-3 uk-width-large-1-4">
+            <figure class="uk-overlay uk-overlay-hover">
+                <img class="uk-overlay-scale img" src="assets/images/friend.png" width="300" height="300" alt="Friend Finder">
+                <figcaption class="uk-overlay-panel uk-overlay-background">
+                    <h3>Friend Finder</h3>
+                    <p>This app compares the user's survery to find the best match.</p>
+                    <a href="https://find-buddies.herokuapp.com/">Deployed</a>
+                    <br>
+                    <a href="https://github.com/misscheryvang/FriendFinder.git">Github</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="uk-width-small-1-2 uk-width-medium-1-3 uk-width-large-1-4">
+            <figure class="uk-overlay uk-overlay-hover">
+                <img class="uk-overlay-scale img" src="assets/images/burger.jpg" width="300" height="300" alt="burger App">
+                <figcaption class="uk-overlay-panel uk-overlay-background">
+                    <h3>Eat-da-burger</h3>
+                    <p>This app allows the user to input a burger as well as devoured one.</p>
+                    <a href="#">Deployed</a>
+                    <br>
+                    <a href="https://github.com/misscheryvang/burger.git">Github</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="uk-width-small-1-2 uk-width-medium-1-3 uk-width-large-1-4">
+            <figure class="uk-overlay uk-overlay-hover">
+                <img class="uk-overlay-scale img" src="assets/images/artsy.png" width="300" height="300" alt="Artsy Store">
+                <figcaption class="uk-overlay-panel uk-overlay-background">
+                    <h3>Artsy</h3>
+                    <p>This online store allows artist and people with an interest in art to sell and purchase artwork.</p>
+                    <a href="https://guarded-savannah-41974.herokuapp.com/index.html">Deployed</a>
+                    <br>
+                    <a href="https://github.com/misscheryvang/miraklProject">Github</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="uk-width-small-1-2 uk-width-medium-1-3 uk-width-large-1-4">
+            <figure class="uk-overlay uk-overlay-hover">
+                <img class="uk-overlay-scale img" src="assets/images/joanna.jpg" width="300" height="300" alt="Joanna scrape mongoose">
+                <figcaption class="uk-overlay-panel uk-overlay-background">
+                    <h3>Scrape</h3>
+                    <p>The website renders information scraped from another website and allows the users to add notes to it.</p>
+                    <a href="https://mongoose-scrapie.herokuapp.com/">Deployed</a>
+                    <br>
+                    <a href="https://github.com/misscheryvang/scrapeMongoose.git">Github</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="uk-width-small-1-2 uk-width-medium-1-3 uk-width-large-1-4">
+            <figure class="uk-overlay uk-overlay-hover">
+                <img class="uk-overlay-scale img" src="assets/images/pikachu.png" width="300" height="300" alt="Pokemon memory game">
+                <figcaption class="uk-overlay-panel uk-overlay-background">
+                    <h3>Clicky Game</h3>
+                    <p>A memory game created with React.</p>
+                    <a href="https://misscheryvang.github.io/Homework19/">Deployed</a>
+                    <br>
+                    <a href="https://github.com/misscheryvang/clicky-game.git">Github</a>
+                </figcaption>
+            </figure>
+        </div>
 
     </div>
-  </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
-  </footer>
+    <div class="topSpace"></div>
+
+    <footer class="uk-text-center">
+        © 2018 Copyright Text
+    </footer>
+
+    <script src="./js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.5/js/uikit.min.js"></script>
 </body>
 
 </html>
